@@ -40,7 +40,15 @@ public class BookController {
 
 
     //  - (wspólnie) przypisywanie autora do książki
+    //          AssignAuthorsDto
+    //          - id ksiązki podane w dto (bookId)
+    //          - autorzy jako List<Long> (authors)
     //  - (sami) (PathVariable & RequestParam - zrób na dwa sposoby, dwa endpoint'y) listowanie autorów książki
-    //  - (wspólnie) usuwanie danego autora z książki
+    //  - (wspólnie) usuwanie danego autora z książki (tak samo jak dodawanie, tylko endpoint ma inny adres)
+    //          AssignAuthorsDto
+    //          - id ksiązki podane w dto (bookId)
+    //          - autorzy jako List<Long> (authors)
     //  - (sami) (PathVariable) przypisywanie isbn do książki
+    //          - localhost:8080/book/13/isbn (Post)
+    //          - isbn podajemy w ciele obiektu (@RequestBody String isbn)
 }
